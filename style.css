@@ -1,0 +1,709 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.logo a {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -9px;
+    margin-left: 73px;
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 19px;
+    font-size: 18px;
+    color: white;
+}
+
+.bar {
+    padding-top: 10px;
+}
+
+/* sec 1 */
+.sec1 {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: gainsboro;
+    height: 640px;
+}
+
+.img1 img {
+    margin-top: 80px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.para1 {
+    margin: auto;
+}
+
+.para1 h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.para1 p {
+    padding: 10px 19px;
+    text-align: center;
+}
+
+
+.play {
+    margin-left: 10px;
+}
+
+.play i {
+    color: red;
+    padding-right: 5px;
+}
+
+/* sec 2 */
+
+.sec2p {
+    text-align: center;
+    margin-top: 73px;
+}
+
+.sec2h1 {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 36px;
+}
+
+.sec2 {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.img2 {
+    background-image: url("https://skyzotechnical.com/images/services/interior.png");
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    height: 360px;
+}
+
+.img2text {
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding: 10px 0px;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    font-weight: bolder;
+}
+
+.para2 p {
+    padding: 25px 36px;
+}
+
+.para2 ul {
+    margin: 0px 39px;
+    list-style-type: none;
+}
+
+.para2 ul li {
+    margin: 15px 0px;
+}
+
+.para2 ul li i {
+    color: red;
+    position: absolute;
+    margin-left: -20px;
+}
+
+.img3 img {
+    width: 320px;
+    margin: 0px 23px;
+}
+
+
+/* Sec 3 */
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 15px;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.card {
+    background-color: red;
+    padding: 15px 27px;
+    width: 260px;
+}
+
+
+.btn1 {
+    background-color: rgb(243, 98, 98);
+    margin: 5px 54px;
+}
+
+.cardLogo {
+    margin: 0px 104px;
+    background-color: rgb(238, 97, 97);
+    padding: 8px 9px;
+    color: red;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.card1 {
+    text-align: center;
+    background-color: white;
+}
+
+/* Sec 4 */
+
+.img4 {
+    background-image: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(9px);
+    height: 250px;
+    padding: 10px 0px;
+}
+
+.img4 h1,
+p {
+    color: rgb(0, 0, 0);
+}
+
+
+/* Sec 5 */
+
+.sec5 {
+    margin: 50px 0px;
+}
+
+.food {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img5 ul {
+    display: flex;
+    gap: 15px;
+    margin: 15px 62px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.img5 ul li {
+    border-bottom: 2px solid black;
+}
+
+.food img {
+    width: 220px;
+}
+
+.food h1 {
+    color: red;
+}
+
+
+.sec5p {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.sec5h1 {
+    text-align: center;
+    margin-bottom: 36px;
+    font-size: 25px;
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+/* sec 6 */
+.sec6 {
+    background-color: #eee;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.item {
+    margin: 20px 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item img {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* sec 7 */
+
+.sec7 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.event {
+    background-image: url("https://img.fruugo.com/product/7/57/983512577_max.jpg");
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    z-index: -1;
+    position: relative;
+}
+
+.cont {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+.cont h1,
+h2,
+p {
+    color: white;
+    text-align: left;
+}
+
+.eventCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* sec 8 */
+
+.sec8 {
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #eee;
+}
+
+.chef {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.chefCard {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.chefCont h3,
+p {
+    text-align: center;
+    color: rgb(66, 64, 64);
+}
+
+.chefCont {
+    width: 330px;
+    height: 470px;
+}
+
+.chefCont img {
+    width: 100%;
+}
+
+
+
+
+/* sec 9 */
+.sec9 {
+    background-color: white;
+    margin: 60px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #eee;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.form form {
+    width: 330px;
+    margin-bottom: 30px;
+}
+
+.form input {
+    width: 272px;
+    height: 30px;
+    padding: 6px 20px;
+    margin: 8px 0px;
+}
+
+.form textarea {
+    width: 280px;
+    height: 120px;
+    padding: 6px 20px;
+    margin: 8px 0px;
+}
+
+
+
+/* sec 10 */
+.sec10 {
+    background-color: #eee;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.image {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.image img {
+    width: 250px;
+}
+
+
+/* sec 11 */
+.sec11 {
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.first {
+    background-color: #eee;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+    width: 282px;
+    justify-content: left;
+}
+
+
+.first i {
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 40px;
+    background-color: red;
+}
+
+
+
+
+/* footer */
+.footer {
+    justify-content: center;
+    padding: 20px 10px;
+    display: flex;
+    border-bottom: 1px solid #535456;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #212529;
+}
+
+.footerContact b,
+p {
+    text-align: left;
+    color: white;
+}
+
+.footerContact i {
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 9px;
+    padding: 10px;
+    border: 1px solid #535456;
+    color: white;
+}
+
+
+/* footer 2 */
+footer{
+    background-color: #212529;
+    padding: 30px 0px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:420px) {
+    .img2text {
+        width: 301px;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .img2text {
+        width: 271px;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+    .img2text {
+        width: 243px;
+    }
+
+}
+
+
+@media only screen and (min-width:900px) {
+    nav {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .sec1 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .img1 img {
+        width: 450px;
+    }
+
+    .para1 {
+        width: 400px;
+        margin: 170px 279px;
+        margin-left: 50px
+    }
+
+    .para1 h1 {
+        width: 252px;
+        text-align: left;
+    }
+
+    /* sec2 */
+    .sec2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .para2 {
+        width: 500px;
+    }
+
+
+
+    .img2 {
+        background-size: contain;
+        height: 595px;
+        width: 680px;
+    }
+
+    .img2text {
+        top: 70%;
+        width: 519px;
+    }
+
+
+
+    /* sec 3 */
+    .sec3 {
+        flex-direction: row;
+    }
+
+    .food {
+        flex-direction: row;
+    }
+
+    .food1 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* sec 4 */
+    .img4 {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        flex-direction: row;
+        gap: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* sec 5 */
+    .sec5p {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sec5h1 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img5 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sec5 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* sec 6 */
+    .item {
+        flex-direction: row;
+    }
+
+    .p {
+        width: 400px;
+    }
+
+    /* sec 7 */
+    .eventCard {
+        flex-direction: row;
+    }
+
+    /* sec 8 */
+    .chef {
+        flex-direction: row;
+    }
+
+    /* sec 9 */
+    .sec9 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form {
+        padding-right: 6%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form form {
+        width: 560px;
+
+    }
+
+    .form input {
+        width: 139px;
+    }
+
+    .form textarea {
+        width: 514px;
+    }
+
+    .sec9 {
+        padding: 20px 53px;
+    }
+
+    /* sec 10 */
+    .image {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .image img {
+        width: 160px;
+    }
+
+    /* sec 11 */
+    .contact {
+        width: 900px;
+        flex-direction: row;
+    }
+
+    .first {
+        width: 400px;
+    }
+
+
+
+    /* footer */
+    .footer {
+        flex-direction: row;
+    }
+
+}
